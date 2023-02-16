@@ -23,3 +23,22 @@ y_pred = clf.predict(X_test)
 # calculate the accuracy of the model
 accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
+
+###
+
+In this example, we load the iris dataset from scikit-learn, 
+which consists of measurements of iris flowers with three different 
+species. We take only the first two features of the data (sepal length and width) 
+and the corresponding target labels. We then split the data into a training 
+set and a testing set using the train_test_split function.
+
+Next, we create a LogisticRegression object from scikit-learn and train it 
+on the training data using the fit method. We then make predictions on the 
+testing data using the predict method and calculate the accuracy of the 
+model using the accuracy_score function.
+
+Note that this is a simple example and may not represent the best way to 
+approach a particular dataset or problem. The scikit-learn library provides 
+many additional options and tools for logistic regression and other machine learning algorithms.
+
+###
