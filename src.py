@@ -24,7 +24,7 @@ y_pred = clf.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
 
-###
+"""
 
 In this example, we load the iris dataset from scikit-learn, 
 which consists of measurements of iris flowers with three different 
@@ -41,4 +41,4 @@ Note that this is a simple example and may not represent the best way to
 approach a particular dataset or problem. The scikit-learn library provides 
 many additional options and tools for logistic regression and other machine learning algorithms.
 
-###
+"""
